@@ -22,10 +22,3 @@ References
 3)	Training Data: JSRT database (http://db.jsrt.or.jp/eng.php)
 4)	Training Data: SCR reference lung boundaries (https://www.isi.uu.nl/Research/Databases/SCR/)
 5)	Laboratory for Augmented Intelligence in Imaging, The Ohio State University Wexner Medical Center,Department of Radiology
-
-
-
-
-
-
-
