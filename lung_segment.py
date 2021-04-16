@@ -70,12 +70,10 @@ for file_name in frame_list:
     img = np.expand_dims(img,axis = 0)
     pred = model.predict(img)[..., 0].reshape(im_shape)
     img = np.squeeze(img)
-    
-    
+        
     " 0-1 mask conversion "
     pr = pred > 0.5
-    pr = morphology.remove_small_objects(pr, int(0.1*im_shape[1]))
-    
+    pr = morphology.remove_small_objects(pr, int(0.1*im_shape[1]))    
   
     " show predicted results "  
     show_frames(orig_img, pred, pr)
