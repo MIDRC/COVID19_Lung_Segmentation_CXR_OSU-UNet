@@ -27,7 +27,7 @@ json_file.close()
 model = model_from_json(loaded_model_json)
     
 " load weights into the model " 
-model.load_weights('model.400.hdf5') 
+model.load_weights('segment_model.hdf5') 
 print("Loaded model from disk")
 
 "input shape..." 
